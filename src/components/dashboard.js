@@ -15,7 +15,7 @@ function Dashboard() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('https://nodered.bbxvisible.com:1880/aqi')
+    fetch('your api here ')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Network response was not ok');
